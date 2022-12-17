@@ -1,28 +1,29 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: radial-gradient(#C0C0C0, #D0A9F5);
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Peralta", cursive;
 }
 
 h2 {
-    color: #3046C5;
+    color: #170B3B;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #170B3B;
 }
 
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: radial-gradient(#C0C0C0, #D0A9F5);
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: radial-gradient(#C0C0C0, #D0A9F5);
     color: white;
 }
 
@@ -33,7 +34,7 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color: #901CAD;
+    background-color: #170B3B;
 }
 
 a, a:hover {
@@ -48,4 +49,37 @@ a, a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#aboutUs {
+    text-align: center;
+    font-family: "Peralta", cursive;
+    border-bottom: 3px solid;
+}
+
+#allAboutUs {
+    border: 3px inset black;
+}
+
+#aboutUsSummary {
+    text-align: center;
+    font-family: "Peralta", cursive;
+    border: 1px solid #5637DD;
+    border-radius: 8px;
+}
+
+#trending {
+    text-align: center;
+
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom:50px
+}
+
+.col-4 img{
+    width: 100%;
 }
